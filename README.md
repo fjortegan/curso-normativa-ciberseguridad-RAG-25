@@ -22,7 +22,7 @@ información**.
 
     1.4. [LPI](normativa/BOE-A-1996-8930-consolidado.pdf)
 
-2. Marco normativo español: [ENS](normativa\BOE-A-2022-7191-consolidado.pdf)
+2. Marco normativo español: [ENS](normativa/BOE-A-2022-7191-consolidado.pdf)
 
 3. Calidad, buenas prácticas:
 
