@@ -39,7 +39,7 @@ El proceso de búsqueda funciona de la siguiente manera: la consulta del usuario
 
 Para mejorar aún más la precisión, los sistemas RAG avanzados emplean técnicas como la **búsqueda híbrida**, que combina la búsqueda semántica con la búsqueda tradicional por palabras clave, y los **reclasificadores** (*re-rankers*), que evalúan los resultados iniciales de la búsqueda para priorizar y entregar al LLM únicamente la información más relevante.
 
-### **Ventajas: Combatir la alucinación, garantizar la "frescura" de los datos y fomentar la confianza del usuario**
+## **Ventajas: Combatir la alucinación, garantizar la "frescura" de los datos y fomentar la confianza del usuario**
 
 La arquitectura RAG ofrece varios beneficios para las aplicaciones de IA generativa.
 
@@ -48,7 +48,7 @@ La arquitectura RAG ofrece varios beneficios para las aplicaciones de IA generat
 * **Mayor confianza del usuario y verificabilidad:** Una característica clave de los RAG es su capacidad para citar sus fuentes. Al mostrar al usuario exactamente de dónde proviene la información, se mejora la confianza en los resultados y se permite la verificación independiente, de forma análoga a las notas a pie de página en un trabajo de investigación. 
 * **Privacidad y control de datos:** Los RAG pueden diseñarse para mantener los datos sensibles dentro de la infraestructura de la organización (on-premise) mientras se aprovecha un LLM externo, ofreciendo de esta forma  una solución robusta a las preocupaciones sobre la privacidad.
 
-### **Conclusiones**
+## **Conclusiones**
 Los LLM tradicionales se diseñaron para ser vastos repositorios de conocimiento parametrizado; su valor residía en lo que *sabían*.
 
 Los sistemas RAG, en cambio, restan importancia al conocimiento interno del LLM y ponen el énfasis en su capacidad para razonar. La tarea principal del modelo pasa de ser recordar un hecho a sintetizar información que se le proporciona en tiempo real.
