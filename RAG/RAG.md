@@ -53,8 +53,8 @@ Los LLM tradicionales se diseñaron para ser vastos repositorios de conocimiento
 
 Los sistemas RAG, en cambio, restan importancia al conocimiento interno del LLM y ponen el énfasis en su capacidad para razonar. La tarea principal del modelo pasa de ser recordar un hecho a sintetizar información que se le proporciona en tiempo real.
 
-Esto sugiere que en un futuro próximo, la evolución de la IA puede residir menos en la construcción de modelos cada vez más grandes y más en la creación de sistemas eficientes para recuperar y suministrar información suministrada por los usuarios. El conocimiento se vuelve externo, mientras que el LLM se convierte en un motor de razonamiento.
+Esto sugiere que en un futuro próximo, la evolución de la IA puede residir menos en la construcción de modelos cada vez más grandes y más en la creación de sistemas eficientes para recuperar información suministrada por los usuarios. El conocimiento se vuelve externo, mientras que el LLM se convierte en un motor de razonamiento.
 
-La eficacia de un sistema RAG reside más en la calidad de recuperación que de generación. El principio de "basura entra, basura sale" más relevante. Si el recuperador no logra encontrar la información correcta o extrae documentos irrelevantes, incluso el LLM más avanzado generará una respuesta pobre o incorrecta.
+La eficacia de un sistema RAG reside más en la calidad de recuperación que de generación. Si el recuperador no logra encontrar la información correcta o extrae documentos irrelevantes, incluso el LLM más avanzado generará una respuesta pobre o incorrecta.
 
 El éxito de un RAG no reside en el LLM en sí, ya que la generación está fundamentalmente limitada por la calidad del contexto que recibe. Su éxito reside en la preparación de los datos (estrategias de fragmentación o *chunking*), la selección del modelo de embedding y la eficiencia del algoritmo de recuperación (búsqueda híbrida, reclasificación).

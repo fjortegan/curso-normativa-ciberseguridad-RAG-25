@@ -14,15 +14,15 @@ información**.
 ## 2. Normativa relacionada
 1. Legislación:
 
-    1.1. LOPDGDD
+    1.1. [LOPDGDD](normativa/BOE-A-2018-16673-consolidado.pdf)
 
-    1.2. RGPD
+    1.2. [RGPD](normativa/CELEX_32016R0679_ES_TXT.pdf)
 
-    1.3. LSSICE
+    1.3. [LSSICE](normativa/BOE-A-2002-13758-consolidado.pdf)
 
-    1.4. LPI
+    1.4. [LPI](normativa/BOE-A-1996-8930-consolidado.pdf)
 
-2. Marco normativo español: ENS
+2. Marco normativo español: [ENS](normativa\BOE-A-2022-7191-consolidado.pdf)
 
 3. Calidad, buenas prácticas:
 
