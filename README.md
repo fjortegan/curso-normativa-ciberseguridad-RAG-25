@@ -39,6 +39,8 @@ información**.
 
 ## 4. Ejecución de modelos de IA en local. Ollama
 
+[Instalación y primeros pasos con ollama](ollama/ollama.md)
+
 ## 5. Interfaz de interacción con los modelos de IA. OpenWebUl
 
 ## 6. Procesado de documentos. Marker-pdf
