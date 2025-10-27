@@ -1,6 +1,6 @@
 # **Construyendo un sistema RAG con NotebookLM**
 
-Esta sección es un tutorial que guiará al usuario a través de todo el proceso de creación y uso de un sistema RAG en NotebookLM.
+Tutorial para la creación y uso de un sistema RAG en NotebookLM.
 
 ## **Fase 1: Creación del cuaderno y definición de la base de conocimiento**
 
@@ -31,42 +31,47 @@ El primer paso es establecer el espacio de trabajo y definirlo con las fuentes d
 
   <div align="center"><img src="/RAG/notebooklm/resumen.png"></div>
 
-### **3.2 Fase 2: El Proceso de Recuperación \- Interactuando con sus Fuentes**
+## **Fase 2: Interactuando con sus Fuentes**
 
-Con la base de conocimiento creada, el siguiente paso es comenzar a consultarla. Al hacer una pregunta, se activa la etapa de "Recuperación" del proceso RAG, donde el backend de NotebookLM realiza una búsqueda semántica en las fuentes indexadas.26
+Con la base de conocimiento creada, el siguiente paso es comenzar a consultarla.
 
-* **Paso 1: Hacer su Primera Pregunta.**  
-  * Localice el cuadro de chat en la parte inferior de la pantalla.16  
-  * Comience con una pregunta simple y directa cuyo contenido se encuentre en los documentos cargados. Por ejemplo: "¿Cuáles son los argumentos principales del documento sobre RAG?".  
-* **Paso 2: Refinar Consultas y Hacer Preguntas de Seguimiento.**  
-  * Construya sobre la respuesta inicial. Puede pedir aclaraciones ("Explica ese último punto con palabras más sencillas") o solicitar una expansión del análisis ("Compara los argumentos de la Fuente A con los de la Fuente B").  
+* **Paso 1: Preguntar.**  
+  * El cuadro de chat se localiza en la parte inferior de la pantalla.
+  * Comenzar con una pregunta simple y directa cuyo contenido se encuentre en los documentos cargados.
+* **Paso 2: Refinar consultas.**  
+  * Intentar construir desde la respuesta inicial. Se pueden pedir aclaraciones ("Explica ese último punto con palabras más sencillas") o solicitar una expansión del análisis ("Compara los argumentos de la Fuente A con los de la Fuente B").  
 * **Paso 3: Utilizar las Preguntas Sugeridas.**  
-  * Después de cada respuesta, NotebookLM proporciona preguntas de seguimiento generadas automáticamente. Estas sugerencias son una excelente manera de guiar la exploración y descubrir nuevas facetas del contenido.28
+  * Después de cada respuesta, NotebookLM proporciona preguntas de seguimiento generadas automáticamente. Estas sugerencias son una buena manera de guiar la exploración y descubrir nuevas facetas del contenido.
 
-### **3.3 Fase 3: El Proceso de Generación \- Sintetizando y Verificando la Información**
+## **Fase 3: Sintetizando y Verificando la Información**
 
-La respuesta que aparece en el chat es el resultado de la etapa de "Generación", donde el modelo Gemini sintetiza la consulta del usuario con el contexto recuperado.26
+La respuesta que aparece en el chat es el resultado de sintetizar la consulta del usuario con el contexto definido por las fuentes aportadas.
 
 * **Paso 1: Analizar la Respuesta de la IA.**  
-  * Observe la estructura de la respuesta: el texto generado que contesta a su pregunta.  
+  * Observar la estructura de la respuesta, comprobar que el texto generado e contesta nuestra pregunta.
 * **Paso 2: Verificar con las Citas.**  
-  * Este es un paso fundamental. Busque los pequeños recuadros azules numerados dentro de la respuesta.20  
-  * Al hacer clic en una cita (por ejemplo, ), el panel de fuentes resaltará instantáneamente el pasaje exacto de donde se extrajo esa información. Esto demuestra el "anclaje" en acción y es la característica central que construye la confianza en un sistema RAG.15  
-* **Paso 3: Solicitar Diferentes Formatos.**  
-  * Pida a la IA que reformatee la información para facilitar su comprensión. Por ejemplo: "Resume los hallazgos clave en una lista con viñetas" o "Crea una tabla que compare las características mencionadas en todas las fuentes".
+  * Este es un paso fundamental. NotebookLM indexa las fuentes con un sistema similar a las notas al pie de página.  
+  * Al pasar el ratón por una anotación, se resaltará instantáneamente el pasaje exacto de donde se extrajo esa información.
+  <div align="center"><img src="/RAG/notebooklm/citas.png"></div>
 
-### **3.4 Fase 4: Organización y Exportación del Conocimiento**
+* **Paso 3: Solicitar Diferentes Formatos.**  
+  * Solicitar que reformatee la información para facilitar su comprensión. Por ejemplo: "Resume los hallazgos clave en una lista con viñetas" o "Crea una tabla que compare las características mencionadas en todas las fuentes".
+
+## **Fase 4: Organización y exportación del conocimiento**
 
 El trabajo de investigación no termina con una respuesta. NotebookLM ofrece herramientas para organizar y exportar los conocimientos generados.
 
-* **Paso 1: Guardar Chats Importantes como Notas.**  
-  * Recuerde que el historial de chat es efímero.12  
-  * Utilice el botón "Guardar en nota" que aparece debajo de cada respuesta de la IA. Esta acción crea un registro permanente de las ideas y resúmenes más valiosos en el panel de notas.19  
-* **Paso 2: Utilizar Herramientas de Generación Predefinidas.**  
-  * Desde la Guía del Cuaderno o el chat, puede generar documentos estructurados como "Preguntas Frecuentes", "Guía de Estudio" o "Línea de Tiempo" con un solo clic, lo que acelera la síntesis de la información.20  
-* **Paso 3: Generar y Descargar Resúmenes de Audio.**  
-  * Active la creación del resumen de audio o "podcast" a partir de sus fuentes.16  
-  * Una vez generado, el archivo de audio se puede descargar para escucharlo sin conexión, facilitando el aprendizaje en cualquier momento y lugar.19
+* **Paso 1: Guardar preguntas importantes como notas.**  
+  * Recuerde que el historial de chat es efímero.  
+  * Utilice el botón "Guardar como nota" que aparece debajo de cada respuesta para conservarla.
+  * Será visible en el panel de notas.
+  <div align="center"><img src="/RAG/notebooklm/guardar_notas.png"></div>
+
+* **Paso 2: Utilizar herramientas de generación predefinidas.**  
+  * Desde la Guía del Cuaderno o el chat, se pueden generar documentos estructurados como "Preguntas Frecuentes", "Guía de Estudio" o "Línea de Tiempo" con un solo clic, lo que acelera la síntesis de la información.  
+* **Paso 3: Generar y descargar resúmenes de audio.**  
+  * Se puede crear un resumen de audio o "podcast" a partir de sus fuentes.
+  * Una vez generado, el archivo de audio se puede descargar para escucharlo sin conexión.
 
 ## **Sección 4: Estrategias Avanzadas para Maximizar la Eficacia de NotebookLM**
 
