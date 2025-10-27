@@ -6,22 +6,30 @@ Regulación con IA generativa trata sobre el uso de IA generativa (concretamente
 información**.
 
 ## 1. Justificación
-1. Materia difícil de hacer amena.
-2. Lenguaje complejo Y difícil de leer.
-3. LLM son buenos comprendiendo texto independientemente de su complejidad.
-4. Capacidad de resumen y generación de resultados coherentes.
-5. Difícil crear actividades que no puedan ser resueltas con IA (pero mal)
-6. 
+1. Materia difícil de hacer amena. Lenguaje complejo Y difícil de leer. La IA generativa es eficiente comprendiendo texto independientemente de su complejidad.
+2. La IA generativa es capaz de generar resultados coherentes aportando documentación como contexto.
+3. El uso de IA de forma intensiva por parte del alumnado sin evaluar resultados.
+4. 
 
 ## 2. Normativa relacionada
-1. LOPDGDD
-2. RGPD
-3. LSSICE
-4. LPI
-5. ENS
-6. ITIL v3
-7. FitSM
-8. ISO 27000: ISO 27001 y 27002
+1. Legislación:
+
+    1.1. LOPDGDD
+
+    1.2. RGPD
+
+    1.3. LSSICE
+
+    1.4. LPI
+
+2. Marco normativo español: ENS
+
+3. Calidad, buenas prácticas:
+
+    3.1. ISO 27000: ISO 27001 y 27002
+
+    3.2. Gestión de incidencias: ITIL v3, FitSM
+
     
 ## 3. RAG. Ejemplo con notebook LM
 
@@ -38,9 +46,7 @@ información**.
 ## 8. Investigación profunda en local
 
 ## 9. Conclusiones. Propuestas de actividades
-1. Aprendizaje basado en retos.
-2. Investigación de tecnologías que pueden ayudar a manejar información compleja.
-3. Planteamiento de problemas.
-4. Procesado de la documentación para obtener valor añadido.
-5. Uso ético de las herramientas de IA.
+1. Aprendizaje basado en retos. Planteamiento de problemas como instrumento de evaluación.
+2. Investigación de tecnologías que pueden ayudar a manejar información compleja y/o con actualizaciones periódicas. Procesado de la documentación para obtener valor añadido.
+3. Uso eficiente de las herramientas de IA.
 
