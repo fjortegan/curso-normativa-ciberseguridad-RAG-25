@@ -25,7 +25,7 @@ Antes de proceder, es vital verificar que todos los componentes están correctam
 
 ## **Despliegue con docker run**
 
-El comando docker run es la herramienta fundamental para iniciar contenedores. Aunque existen métodos más avanzados como docker compose, si disponemos de [docker desktop](https://www.docker.com/products/docker-desktop/), al ejecutar el comando una sola vez podemos gestionar posteriormente el contenedor desde la interfaz gráfica.
+El comando `docker run` es la herramienta fundamental para iniciar contenedores. Si disponemos de [docker desktop](https://www.docker.com/products/docker-desktop/), al ejecutar el comando una sola vez podemos gestionar posteriormente el contenedor desde la interfaz gráfica.
 
 #### **Comando docker run**
 

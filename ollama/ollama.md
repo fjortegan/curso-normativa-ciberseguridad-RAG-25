@@ -100,9 +100,7 @@ Hay dos comandos para obtener modelos de la biblioteca de ollama:
 * `ollama pull <nombre_del_modelo>`: Este comando descarga un modelo a la máquina local sin iniciar una sesión interactiva. Es útil para pre-cargar modelos que se planean usar más tarde.
 * `ollama run <nombre_del_modelo>`: Este es el comando más común. Comprueba si el modelo especificado existe localmente. Si no, lo descarga primero (pull) y luego inicia una sesión de chat interactiva en la terminal, permitiéndo conversar con el modelo inmediatamente.
 
-Ejemplo Práctico:  
-Para descargar y chatear con el modelo Llama 3.2, simplemente ejecute:
-
+Ejemplo:  
 `ollama run llama3.2`
 
 Una vez dentro de la sesión de chat, puede escribir sus preguntas. Para introducir un texto de varias líneas, puede encerrarlo entre comillas triples (""").
@@ -131,5 +129,5 @@ Es posible configurarlo para permitir el acceso desde otros dispositivos en su r
 
 Ollama es un proyecto de código abierto en activo. Mantener tanto la herramienta como los modelos actualizados es crucial para beneficiarse de las últimas mejoras de rendimiento, correcciones de errores y nuevas características.
 
-* **Actualizar la aplicación**
-* **Actualizar los Modelos** Para actualizar un modelo que ya tiene localmente, simplemente ejecute el comando `ollama pull <nombre_del_modelo>` de nuevo.
+* **Actualizar la aplicación:** Reinstalar ollama.
+* **Actualizar los modelos:** Para actualizar un modelo descargado, ejecutar: `ollama pull <nombre_del_modelo>`
