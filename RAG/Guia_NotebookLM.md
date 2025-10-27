@@ -13,7 +13,11 @@ El primer paso es establecer el espacio de trabajo y definirlo con las fuentes d
 <div align="center"><img src="/RAG/notebooklm/crear_cuaderno.png"></div>
 
 * **Paso 2: Añadir fuentes.**  
-  * Dentro del cuaderno, localice el panel de "Fuentes" (generalmente a la izquierda).16  
+  * Una vez creado lo primero que nos propone es añadir fuentes:
+
+<div align="center"><img src="/RAG/notebooklm/añadir_fuentes.png"></div>
+
+
   * Utilice el botón "Añadir Fuente" para incorporar contenido. El proceso varía ligeramente según el tipo de fuente 12:  
     * **Subir un PDF:** Seleccione la opción para subir un archivo desde su ordenador y elija el PDF deseado.  
     * **Añadir una Página Web:** Seleccione la opción de sitio web y pegue la URL del artículo o página.  

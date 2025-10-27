@@ -35,7 +35,7 @@ información**.
 
 [Generación Aumentada por Recuperación: RAG](RAG/RAG.md)
 
-[Guía de uso NotebookLM](RAG/Guia NotebookLM.md)
+[Guía de uso NotebookLM](RAG/Guia_NotebookLM.md)
 
 ## 4. Ejecución de modelos de IA en local. Ollama
 
