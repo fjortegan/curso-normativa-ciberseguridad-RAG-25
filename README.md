@@ -25,7 +25,7 @@ información**.
     
 ## 3. RAG. Ejemplo con notebook LM
 
-[Generación Aumentada por Recuperación: RAG](RAG)
+[Generación Aumentada por Recuperación: RAG](RAG/RAG.md)
 
 ## 4. Ejecución de modelos de IA en local. Ollama
 
