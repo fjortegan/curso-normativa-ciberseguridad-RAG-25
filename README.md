@@ -43,7 +43,11 @@ información**.
 
 ## 5. Interfaz de interacción con los modelos de IA. OpenWebUl
 
+[Instalación y primeros pasos con openwebui](openwebui/openwebui.md)
+
 ## 6. Procesado de documentos. Marker-pdf
+
+[Procesado de documentación usando marker-pdf](markerpdf/markerpdf.md)
 
 ## 7. Investigación profunda. Perplexity
 
