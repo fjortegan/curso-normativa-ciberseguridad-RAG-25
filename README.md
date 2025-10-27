@@ -26,9 +26,9 @@ información**.
 
 3. Calidad, buenas prácticas:
 
-    3.1. ISO 27000: ISO 27001 y 27002
+    3.1. ISO 27000: ISO [27001](normativa/Documento_Norma_UNE-EN_ISO-IEC_27001_MINTUR.pdf) y [27002](normativa\Documento_Norma_UNE-EN_ISO-IEC_27002_MINTUR.pdf)
 
-    3.2. Gestión de incidencias: ITIL v3, FitSM
+    3.2. Gestión de incidencias: [ITIL](https://wiki.en.it-processmaps.com/index.php/Main_Page), [FitSM](https://www.fitsm.eu/downloads/)
 
     
 ## 3. RAG. Ejemplo con notebook LM
