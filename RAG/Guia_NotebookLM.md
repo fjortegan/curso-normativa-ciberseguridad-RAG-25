@@ -10,23 +10,26 @@ El primer paso es establecer el espacio de trabajo y definirlo con las fuentes d
   * Enlace: [NotebookLM](https://notebooklm.google.com). Accesible con una cuenta de google.  
   * Cree un nuevo **cuaderno**. Un cuaderno funciona como un espacio de trabajo o proyecto autónomo, donde se agruparán todas las fuentes y notas relacionadas con un tema específico.  
 
-<div align="center"><img src="/RAG/notebooklm/crear_cuaderno.png"></div>
+  <div align="center"><img src="/RAG/notebooklm/crear_cuaderno.png"></div>
 
 * **Paso 2: Añadir fuentes.**  
   * Una vez creado lo primero que nos propone es añadir fuentes:
 
-<div align="center"><img src="/RAG/notebooklm/añadir_fuentes.png"></div>
+  <div align="center"><img src="/RAG/notebooklm/añadir_fuentes.png"></div>
 
 
-  * Utilice el botón "Añadir Fuente" para incorporar contenido. El proceso varía ligeramente según el tipo de fuente 12:  
-    * **Subir un PDF:** Seleccione la opción para subir un archivo desde su ordenador y elija el PDF deseado.  
-    * **Añadir una Página Web:** Seleccione la opción de sitio web y pegue la URL del artículo o página.  
-    * **Añadir un Vídeo de YouTube:** Seleccione la opción de YouTube y pegue la URL del vídeo.  
-    * **Pegar Texto:** Elija la opción de texto copiado y pegue el contenido directamente.  
-    * **Desde Google Drive:** Seleccione la opción de Google Drive y elija un Documento o Presentación de su cuenta.  
+  * Opciones disponibles:  
+    * **Subir un archivo:** Arrastrando a la ventana es posible añadir archivos en formato pdf, txt, markdown o audio.  
+    * **Desde Google Drive:** Permite navegar por los archivos almacenados.
+    * **Añadir un sitio Web** 
+    * **Añadir un enlace a YouTube**
+    * **Pegar texto**  
+    
 * **Paso 3: Procesamiento Inicial y la Guía del Cuaderno.**  
   * Una vez cargadas las fuentes, NotebookLM tardará unos momentos en procesarlas e indexarlas.  
-  * Al finalizar, aparecerá la "Guía del Cuaderno". Esta guía muestra un resumen generado automáticamente, los temas clave identificados y una lista de preguntas sugeridas. Esta es la primera interacción del usuario con la salida del sistema RAG.19
+  * Al finalizar, aparecerá un resumen generado automáticamente, los temas clave identificados y una lista de preguntas sugeridas.
+
+  <div align="center"><img src="/RAG/notebooklm/resumen.png"></div>
 
 ### **3.2 Fase 2: El Proceso de Recuperación \- Interactuando con sus Fuentes**
 
