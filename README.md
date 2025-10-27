@@ -6,10 +6,10 @@ Regulación con IA generativa trata sobre el uso de IA generativa (concretamente
 información**.
 
 ## 1. Justificación
-1. Materia difícil de hacer amena. Lenguaje complejo Y difícil de leer. La IA generativa es eficiente comprendiendo texto independientemente de su complejidad.
-2. La IA generativa es capaz de generar resultados coherentes aportando documentación como contexto.
-3. El uso de IA de forma intensiva por parte del alumnado sin evaluar resultados.
-4. 
+1. Materia difícil de hacer interesante. Lenguaje complejo, difícil localizar información concreta. La IA generativa es eficiente comprendiendo texto, independientemente de su complejidad.
+2. La IA generativa es capaz de producir resultados coherentes aportando documentación como contexto. Es posible verificar los resultados obtenidos.
+3. El uso de IA generativa de forma intensiva por parte del alumnado sin evaluar los resultados obtenidos. Es necesario incluir esta tecnnología transversalmente en los planes de estudios para sacarle el mayor provecho de forma ética.
+4. Las herramientas de IA generativa permiten búsqueda semántica (incluso en audio o vídeo), lo que la hace irrenunciable en un contexto donde es diferencial.
 
 ## 2. Normativa relacionada
 1. Legislación:
@@ -34,6 +34,8 @@ información**.
 ## 3. RAG. Ejemplo con notebook LM
 
 [Generación Aumentada por Recuperación: RAG](RAG/RAG.md)
+
+[Guía de uso NotebookLM](RAG/Guia NotebookLM.md)
 
 ## 4. Ejecución de modelos de IA en local. Ollama
 
