@@ -1,5 +1,7 @@
 # Regulación con IA generativa
 
+<div align="center"><img src="/img/cartel_curso.jpg"></div>
+
 Material perteneciente al curso *"ATAQUE, SEGURIDAD MÓVIL Y NORMATIVA: TÉCNICAS DE PIVOTING, SEGURIDAD EN APLICACIONES MÓVILES Y REGULACIÓN CON IA GENERATIVA"* organizado por el **C.E.P. de Jerez de la Frontera**.
 
 Regulación con IA generativa trata sobre el uso de IA generativa (concretamente sistemas **RAG**) como herramienta para impartir el módulo de **Normativa de ciberseguridad**, perteneciente al **Curso de especialización en ciberseguridad en entornos de las tecnologías de la

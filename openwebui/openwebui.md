@@ -9,9 +9,9 @@
 Docker es la tecnología de contenedores que aislará y gestionará OpenWebUI y sus dependencias. El proceso de instalación varía según el sistema operativo: [documentación de instalación.](https://docs.docker.com/engine/install/)
 
 
-### **Instalación de NVIDIA container toolkit (esencial para GPU)**
+### **Instalación de NVIDIA container toolkit (esencial para GPU en sistemas Linux)**
 
-Docker por sí solo no puede interactuar con las GPUs de NVIDIA. El NVIDIA Container Toolkit actúa como un puente, permitiendo que los contenedores accedan al hardware de la GPU del host: [documentación de instalación.](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.18.0/)
+En sistemas Linux, docker por sí solo no puede interactuar con las GPUs de NVIDIA. El NVIDIA Container Toolkit actúa como un puente, permitiendo que los contenedores accedan al hardware de la GPU del host: [documentación de instalación.](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.18.0/)
 
 ### **Verificación de la instalación**
 
@@ -45,16 +45,11 @@ Para pararlo, el comando sería `docker stop open-webui`
 
 Una vez que los contenedores están en funcionamiento, el siguiente paso es configurar la aplicación OpenWebUI, crear la cuenta de administrador y empezar a gestionar modelos y funcionalidades como Retrieval-Augmented Generation (RAG).
 
-### **4.1 Primer Acceso y Creación de la Cuenta de Administrador**
+### **Creación de la cuenta de administrador**
 
-Este es un punto crítico que a menudo genera confusión entre los nuevos usuarios. El proceso correcto es el siguiente:
+La primera vez que se accede al sistema, se visualiza un carrusel de imágenes. Hay que pulsar en la flecha para entrar:
 
-1. **Acceso a la Interfaz:** Abra un navegador web y navegue a la dirección http://localhost:3000 (o el puerto que haya configurado en el mapeo de puertos).17  
-2. **Proceso de Registro ("Sign Up"):** En la primera visita, la pantalla mostrará un formulario de inicio de sesión. Es fundamental ignorar el inicio de sesión y, en su lugar, hacer clic en la opción para **crear una cuenta nueva ("Sign Up")**.27  
-3. **Creación de la Cuenta de Administrador:** Rellene el formulario de registro con un nombre, correo electrónico y contraseña. La **primera cuenta que se crea en una instalación nueva de OpenWebUI se designa automáticamente como la cuenta de administrador**, otorgándole privilegios completos sobre el sistema.19
-
-Esta particularidad en el flujo de configuración es una fuente común de errores. Los usuarios que intentan iniciar sesión con credenciales por defecto inexistentes se encuentran bloqueados. La documentación debe dejar claro que el primer paso es siempre el registro.  
-Una vez creada la cuenta de administrador, cualquier cuenta posterior que se registre tendrá, por defecto, el rol de "pendiente" (pending), lo que significa que requerirá la aprobación manual del administrador para poder acceder a la aplicación.31
+<div align="center"><img src="/openwebui/capturas/inicio.png"></div>
 
 ### **4.2 Panel de Administración y Gestión de Usuarios**
 
