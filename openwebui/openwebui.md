@@ -29,13 +29,13 @@ El comando `docker run` es la herramienta fundamental para iniciar contenedores.
 
 ## **Comando docker run**
 
-`docker run -d --network host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui ghcr.io/open-webui/open-webui:main`
+`docker run -d --network host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://localhost:11434 --name open-webui ghcr.io/open-webui/open-webui:main`
 
 Este comando pone en marcha el contenedor, conectando con una instancia del servidor ollama funcionando en nuestro sistema.
 
 Si queremos que el **contenedor siga funcionando entre reinicios** de nuestro sistema, habría que añadir al comando la opción: `--restart always`. Quedaría así:
 
-`docker run -d --network host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main`
+`docker run -d --network host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://localhost:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main`
 
 Este comando está pensado para ejecutarse una vez, creando el contenedor `open-webui`. Si el contenedor se para, basta ejecutar `docker start open-webui` para ponerlo de nuevo en marcha.
 
