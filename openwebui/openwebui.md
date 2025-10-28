@@ -55,6 +55,9 @@ Lo primero que nos ofrece el sistema es el registro del usuario administrador de
 
 <div align="center"><img src="/openwebui/capturas/registro_admin.png"></div>
 
+Una vez completamos el registro entramos en la pantalla principal del sistema automáticamente.
+
+<div align="center"><img src="/openwebui/capturas/pantalla_principal.png"></div>
 
 ## **Panel de administración**
 

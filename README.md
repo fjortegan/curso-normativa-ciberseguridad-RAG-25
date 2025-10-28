@@ -1,6 +1,6 @@
 # Regulación con IA generativa
 
-<div align="center"><img src="/img/cartel_curso.jpg"></div>
+<div align="center" width="500px"><img src="/img/cartel_curso.jpg"></div>
 
 Material perteneciente al curso *"ATAQUE, SEGURIDAD MÓVIL Y NORMATIVA: TÉCNICAS DE PIVOTING, SEGURIDAD EN APLICACIONES MÓVILES Y REGULACIÓN CON IA GENERATIVA"* organizado por el **C.E.P. de Jerez de la Frontera**.
 
