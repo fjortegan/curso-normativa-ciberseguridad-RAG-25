@@ -82,7 +82,6 @@ Pulsando en el icono del engranaje de las opciones de ollama, se muestra el sigu
 <div align="center"><img src="/openwebui/capturas/ollama_config.png"></div>
 
 
-
 ## **Gestión de modelos y configuración de RAG**
 
 El panel de administración y la pantalla principal ofrecen herramientas para gestionar los LLMs.
