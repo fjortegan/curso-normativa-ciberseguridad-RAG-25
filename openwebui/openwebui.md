@@ -59,6 +59,8 @@ Una vez completamos el registro entramos en la pantalla principal del sistema au
 
 <div align="center"><img src="/openwebui/capturas/pantalla_principal.png"></div>
 
+![texto](/openwebui/capturas/inicio.png)
+
 ## **Panel de administración**
 
 
