@@ -12,6 +12,7 @@ información**.
 2. La IA generativa es capaz de producir resultados coherentes aportando documentación como contexto. Es posible verificar los resultados obtenidos.
 3. El uso de IA generativa de forma intensiva por parte del alumnado sin evaluar los resultados obtenidos. Es necesario incluir esta tecnnología transversalmente en los planes de estudios para sacarle el mayor provecho de forma ética.
 4. Las herramientas de IA generativa permiten búsqueda semántica (incluso en audio o vídeo), lo que la hace irrenunciable en un contexto donde es diferencial.
+5. Usando opción open source para evitar problemas de coste y privacidad. En este caso, el problema es el hardware.
 
 ## 2. Normativa relacionada
 1. Legislación:
