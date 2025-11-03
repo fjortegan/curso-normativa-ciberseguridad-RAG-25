@@ -52,11 +52,13 @@ información**.
 
 [Procesado de documentación usando marker-pdf](markerpdf/markerpdf.md)
 
-## 7. Investigación profunda. Perplexity
+## 7. Investigación en profundidad. Perplexity
 
-[Investigación profunda usando perplexity](perplexity/perplexity.md)
+[Investigación en profundidad usando perplexity](perplexity/perplexity.md)
 
-## 8. Investigación profunda en local
+## 8. Investigación en profundidad. OpenWebUI
+
+[Investigación en profundidad usando openwebui](openwebui/investigacion.md)
 
 ## 9. Conclusiones. Propuestas de actividades
 1. Aprendizaje basado en retos. Planteamiento de problemas como instrumento de evaluación.
