@@ -12,5 +12,9 @@ Entrando en la [web de perplexity](https://www.perplexity.ai/), tras identificar
 
 Asociada a esta búsqueda, nos permite elegir las fuentes de información y/o adjuntar archivos:
 
-<div align="center"><img src="/perplexity/capturas/fuentes.png"></div>
+<div align="center"><img src="/perplexity/capturas/fuentes.png"></div>  
+
+<div align="center"><img src="/perplexity/capturas/adjuntar_archivos.png"></div>  
+
+Ahora basta con realizar la consulta:
 

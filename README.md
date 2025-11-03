@@ -54,6 +54,8 @@ información**.
 
 ## 7. Investigación profunda. Perplexity
 
+[Investigación profunda usando perplexity](perplexity/perplexity.md)
+
 ## 8. Investigación profunda en local
 
 ## 9. Conclusiones. Propuestas de actividades
