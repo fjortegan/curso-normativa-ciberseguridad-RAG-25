@@ -1,0 +1,91 @@
+services:
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:main
+    networks:
+      - raglocal
+    ports:
+      - "3000:8080"
+    volumes:
+      - open-webui:/app/backend/data
+    environment:
+      OLLAMA_BASE_URL: "http://ollama:11434"
+      ENABLE_WEB_SEARCH: True
+      WEB_SEARCH_ENGINE: "searxng"
+      WEB_SEARCH_RESULT_COUNT: 10
+      WEB_SEARCH_CONCURRENT_REQUESTS: 10
+      SEARXNG_QUERY_URL: "http://searxng:8080/search?q=<query>&format=json"
+  ollama:
+    image: ollama/ollama
+    networks:
+      - raglocal
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+  caddy:
+    container_name: caddy
+    image: docker.io/library/caddy:2-alpine
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data:rw
+      - caddy-config:/config:rw
+    environment:
+      - SEARXNG_HOSTNAME=${SEARXNG_HOSTNAME:-http://localhost}
+      - SEARXNG_TLS=${LETSENCRYPT_EMAIL:-internal}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "1"
+
+  redis:
+    container_name: redis
+    image: docker.io/valkey/valkey:8-alpine
+    command: valkey-server --save 30 1 --loglevel warning
+    restart: unless-stopped
+    networks:
+      - raglocal
+    volumes:
+      - valkey-data2:/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "1"
+
+  searxng:
+    container_name: searxng
+    image: docker.io/searxng/searxng:latest
+    restart: unless-stopped
+    networks:
+      - raglocal
+    ports:
+      - "0.0.0.0:8887:8080"
+    volumes:
+      - ./searxng:/etc/searxng:rw
+      - searxng-data:/var/cache/searxng:rw
+    environment:
+      - SEARXNG_BASE_URL=https://${SEARXNG_HOSTNAME:-localhost}/
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "1"
+networks:
+  raglocal:
+volumes:
+  open-webui:
+  ollama:
+  caddy-data:
+  caddy-config:
+  valkey-data2:
+  searxng-data:
