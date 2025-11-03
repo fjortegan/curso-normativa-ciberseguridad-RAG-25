@@ -16,5 +16,21 @@ Asociada a esta búsqueda, nos permite elegir las fuentes de información y/o ad
 
 <div align="center"><img src="/perplexity/capturas/adjuntar_archivos.png"></div>  
 
-Ahora basta con realizar la consulta:
+Ahora basta realizar la consulta:
 
+<div align="center"><img src="/perplexity/capturas/consulta.png"></div>  
+
+<div align="center"><img src="/perplexity/capturas/investigacion.png"></div>  
+
+Obteniendo este resultado:
+
+<div align="center"><img src="/perplexity/capturas/resultado.png"></div>  
+
+También es posible aportar documentos como contexto y realizar la investigación sin usar búsqueda web, lo que centrará el informe final en los documentos aportados:
+
+<div align="center"><img src="/perplexity/capturas/consulta_contexto.png"></div>  
+
+<div align="center"><img src="/perplexity/capturas/consulta_contexto_sinweb.png"></div>  
+
+
+Hay que destacar que perplexity es una herramienta propietaria, y **la capa gratuita limita las consultas y los archivos que se pueden adjuntar a 3 por día**.
