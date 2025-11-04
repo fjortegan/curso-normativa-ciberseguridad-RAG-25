@@ -30,7 +30,7 @@ Se instalan desde espacio de trabajo, usando una página externa para la búsque
 
 <div align="center"><img src="/openwebui/capturas/herramienta_research.png"></div>
 
-<div align="center"><img src="/openwebui/capturas/importar.png"></div>
+<div align="center"><img src="/openwebui/capturas/import_tool.png"></div>
 
 <div align="center"><img src="/openwebui/capturas/guardar_herramienta.png"></div>
 
@@ -42,7 +42,7 @@ Una vez instaladas, se activan en la pantalla principal de chat.
 
 ## **Indicadores**
 
-Los **indicadores** (prompts) son texto predetermionado para las consultas. 
+Los **indicadores** (prompts) son texto predeterminado para las consultas. 
 
 Se crean en el espacio de trabajo:
 
