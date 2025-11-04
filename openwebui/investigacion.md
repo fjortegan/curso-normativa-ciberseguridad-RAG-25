@@ -16,7 +16,7 @@ En la carpeta [rag_local](/rag_local) de este repositorio se encuentran los arch
 Basta con clonar el repositorio y acceder a la carpeta rag_local, para posteriormente ejecutar:  
     ``docker compose up -d``
 
-## **Herramientas e indicadores en openwebui**
+## **Herramientas**
 
 Permiten personalizar el comportamiento de openwebui.
 
@@ -40,6 +40,7 @@ Una vez instaladas, se activan en la pantalla principal de chat.
 
 <div align="center"><img src="/openwebui/capturas/herramientas2.png"></div>
 
+## **Indicadores**
 
 Los **indicadores** (prompts) son texto predetermionado para las consultas. 
 
@@ -47,7 +48,7 @@ Se crean en el espacio de trabajo:
 
 <div align="center"><img src="/openwebui/capturas/nuevo_indicador.png"></div>
 
-Se puede acceder a ellos en la pantalla principal chat usando su comando:
+Se puede acceder a ellos en la pantalla principal de chat usando el comando asignado en su creación:
 
 <div align="center"><img src="/openwebui/capturas/comando_indicador.png"></div>
 
