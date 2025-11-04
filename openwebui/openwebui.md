@@ -59,8 +59,6 @@ Una vez completamos el registro entramos en la pantalla principal del sistema au
 
 <div align="center"><img src="/openwebui/capturas/pantalla_principal.png"></div>
 
-![texto](/openwebui/capturas/inicio.png)
-
 ## **Panel de administración**
 
 El panel de administración permite solucionar algunos problemas que pueden surgir en la comunicación con ollama.
@@ -77,11 +75,14 @@ Pulsando sobre *Admin Panel* se muestra el panel de administración.
 
 Si tenemos problemas para conectar con ollama, debemos seleccionar *Settings* \> *Connections*. Se muestra el siguiente diálogo:
 
-<div align="center"><img src="/openwebui/capturas/connections.png"></div>
+<div align="center"><img src="/openwebui/capturas/conexiones.png"></div>
 
 Pulsando en el icono del engranaje de las opciones de ollama, se muestra el siguiente diálogo, donde se puede configurar la dirección donde se encuentra accesible la API de ollama. Pulsando sobre el icono de refrescar, comprueba la conexión.
 
 <div align="center"><img src="/openwebui/capturas/ollama_config.png"></div>
+
+<div align="center"><img src="/openwebui/capturas/ollama_config_diag.png"></div>
+
 
 
 ## **Gestión de modelos y configuración de RAG**
