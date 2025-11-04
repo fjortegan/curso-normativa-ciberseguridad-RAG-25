@@ -64,4 +64,6 @@ información**.
 1. Aprendizaje basado en retos. Planteamiento de problemas como instrumento de evaluación.
 2. Investigación de tecnologías que pueden ayudar a manejar información compleja y/o con actualizaciones periódicas. Procesado de la documentación para obtener valor añadido.
 3. Uso eficiente de las herramientas de IA.
+4. En contra tenemos la velocidad en los cambios de esta tecnología. Es difícil de mantenerse completamente al día. P.e. Modelo [minimax-m2](https://agent.minimax.io/).
 
+[Propuestas de actividades](modulo_normativa/actividades_propuestas.md)

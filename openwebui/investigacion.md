@@ -20,13 +20,38 @@ Basta con clonar el repositorio y acceder a la carpeta rag_local, para posterior
 
 Permiten personalizar el comportamiento de openwebui.
 
-Las **herramientas** son scripts en lenguaje python que complementan las consultas en el chat. Se activan en la pantalla principal de chat.
+Las **herramientas** son scripts en lenguaje python que complementan las consultas en el chat. 
 
-<div align="center"><img src="/openwebui/capturas/pantalla_principal.png"></div>
+Se instalan desde espacio de trabajo, usando una página externa para la búsqueda:
 
-Los **indicadores** (prompts) son texto predetermionado para las consultas. Se puede acceder a ellos en el char
+<div align="center"><img src="/openwebui/capturas/descubrir.png"></div>
 
-## **Usando la investigación en profundidad**
+<div align="center"><img src="/openwebui/capturas/busqueda.png"></div>
+
+<div align="center"><img src="/openwebui/capturas/herramienta_research.png"></div>
+
+<div align="center"><img src="/openwebui/capturas/importar.png"></div>
+
+<div align="center"><img src="/openwebui/capturas/guardar_herramienta.png"></div>
+
+Una vez instaladas, se activan en la pantalla principal de chat.
+
+<div align="center"><img src="/openwebui/capturas/herramientas1.png"></div>
+
+<div align="center"><img src="/openwebui/capturas/herramientas2.png"></div>
+
+
+Los **indicadores** (prompts) son texto predetermionado para las consultas. 
+
+Se crean en el espacio de trabajo:
+
+<div align="center"><img src="/openwebui/capturas/nuevo_indicador.png"></div>
+
+Se puede acceder a ellos en la pantalla principal chat usando su comando:
+
+<div align="center"><img src="/openwebui/capturas/comando_indicador.png"></div>
+
+<div align="center"><img src="/openwebui/capturas/indicador_var.png"></div>
 
 
 

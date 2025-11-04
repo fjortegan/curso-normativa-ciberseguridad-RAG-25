@@ -101,7 +101,9 @@ El proceso es el siguiente:
 
   1. **Crear la base de conocimiento:** *Espacio de trabajo* \> *Conocimiento*. Aquí, cree una nueva base de conocimiento, dándole un nombre y un propósito.  
 
-  2. **Cargar documentos:** Dentro de la base de conocimiento recién creada, cargue sus documentos. Se pueden subir archivos individuales (como .pdf, .txt, .md), directorios completos o incluso añadir contenido desde una URL. OpenWebUI procesará estos documentos, los dividirá en fragmentos (chunks), generará representaciones vectoriales (embeddings) y los almacenará en una base de datos vectorial interna.  
+<div align="center"><img src="/openwebui/capturas/espacio_trabajo.png"></div>
+
+  2. **Cargar documentos:** Dentro de la base de conocimiento recién creada, cargue sus documentos. Se pueden subir archivos (como .pdf, .txt, .md). OpenWebUI procesará estos documentos, los dividirá en fragmentos (chunks), generará representaciones vectoriales (embeddings) y los almacenará en una base de datos vectorial interna.  
 
   3. **Crear un modelo personalizado:** Navegue a *Espacio de trabajo* \> *Modelos*. Cree un nuevo modelo, asígnele un nombre, seleccione un modelo base, y en la sección de configuración, asocie este nuevo modelo con la base de conocimientos creada en el paso anterior.  
 
