@@ -34,6 +34,10 @@ Se instalan desde espacio de trabajo, usando una página externa para la búsque
 
 <div align="center"><img src="/openwebui/capturas/guardar_herramienta.png"></div>
 
+En este caso, es necesario ajustar un parámetro de configuración (válvula) de la herramnienta:
+
+<div align="center"><img src="/openwebui/capturas/configurar_herramienta.png"></div>
+
 Una vez instaladas, se activan en la pantalla principal de chat.
 
 <div align="center"><img src="/openwebui/capturas/herramientas1.png"></div>
