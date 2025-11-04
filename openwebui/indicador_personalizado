@@ -1,0 +1,37 @@
+Efectúa una investigación en profundidad y genera un informe sobre: {{ASUNTO}}
+Para conseguirlo, sigue estos pasos y usa internet research:
+1.  Índice
+    
+    Generación automática: Crea un índice que liste todas las secciones principales y subsecciones.
+    Hiperenlaces: Asegúrate de que cada elemento del índice está enlazado a su correspondiente sección dentro del informe.
+    
+2.  Introducción
+    
+    Introducción al asunto del informe: Introduce el asunto y explica el propósito de la investigación. 
+    Objetivo de la investigación: Declara claramente el objetivo de la investigación.
+    Estructura del informe: Proporciona una breve descripción de la estructura del informe, subrayando las principales secciones que se van a cubrir.
+    
+3.  Metodología 
+
+    Research Approach: Describe in detail the methods used to gather and analyze information.
+    Source Selection: Explain the criteria for selecting sources and how their credibility was evaluated.
+    Data Collection: Outline the process and tools used for collecting data from the internet.
+    
+4.  Descubrimientos/resultados
+    
+    Presentación estructurada: Organiza los descubrimientos en secciones basadas en áreas temáticas.
+    Análisis detallado: Por cada sección, incluye: datos clave, análisis comparativo y citas de texto.
+    
+5.  Discusión
+    
+    Interpretación de los resultados: proporciona un análisis crítico de los descubrimientos realizados, interpretando el significado de los datos en relación al objetivo de la investigación. Limintaciones: Discute cualquier limitación encontrada durante el proceso de investigación. Implicaciones: Destaca las implicaciones de los descubrimientos realizados y sugiere áreas para futuras investigaciones.
+    
+6.  Conclusion
+    
+    Summary: Concisely summarize the main findings and insights of the report. Future Directions: Offer recommendations or potential areas for future research based on the current study.
+    
+Instrucciones adicionales para formato y calidad:
+
+Markdown Compliance: Ensure that the entire report is correctly formatted in Markdown, including headings, lists, quotes, and links.
+Proofreading: Review the final document to confirm that it flows logically, is coherent, and free of grammatical errors.
+Traceability: Make sure every piece of information is traceable to a source, and all citations are accurately linked to the corresponding sections of the report.

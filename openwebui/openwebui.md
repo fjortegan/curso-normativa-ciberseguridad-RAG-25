@@ -63,38 +63,46 @@ Una vez completamos el registro entramos en la pantalla principal del sistema au
 
 El panel de administración permite solucionar algunos problemas que pueden surgir en la comunicación con ollama.
 
-**Sin conexión a una API de ollama, openwebui se convierte en un cascarón vacío.**
+**En nuestro caso, sin conexión a una API de ollama, openwebui no nos sirve para nada.**
 
 Para acceder al panel de administración se puede usar el menú que se activa pulsando sobre el usuario en la esquina inferior izquierda de la pantalla principal.
 
 <div align="center"><img src="/openwebui/capturas/menu_admin.png"></div>
 
-Pulsando sobre *Admin Panel* se muestra el panel de administración.
+Pulsando sobre *Administracion* se muestra el panel de administración.
 
 <div align="center"><img src="/openwebui/capturas/panel_admin.png"></div>
 
-Si tenemos problemas para conectar con ollama, debemos seleccionar *Settings* \> *Connections*. Se muestra el siguiente diálogo:
+Si tenemos problemas para conectar con ollama, debemos seleccionar *Ajustes* \> *Conexiones*. Se muestra el siguiente diálogo:
 
 <div align="center"><img src="/openwebui/capturas/conexiones.png"></div>
 
-Pulsando en el icono del engranaje de las opciones de ollama, se muestra el siguiente diálogo, donde se puede configurar la dirección donde se encuentra accesible la API de ollama. Pulsando sobre el icono de refrescar, comprueba la conexión.
+Pulsando en el icono del engranaje de las opciones de ollama, se muestra el siguiente diálogo, donde se puede configurar la dirección donde se encuentra accesible la API de ollama (pulsando sobre el icono de refrescar, comprueba la conexión).
 
 <div align="center"><img src="/openwebui/capturas/ollama_config.png"></div>
 
 <div align="center"><img src="/openwebui/capturas/ollama_config_diag.png"></div>
 
+## **Gestión de modelos**
 
+La forma más sencilla de añadir nuevos modelos a ollama es directamente desde la interfaz. Se puede ir a *Ajustes* \> *Conexiones*, seleccionar la conexión de ollama y usar el campo de texto para buscar y descargar modelos de la biblioteca oficial de ollama. Alternativamente, se puede escribir el nombre de un modelo (por ejemplo, llama3) en el selector de modelos de la ventana de chat principal. Si el modelo no está disponible localmente, aparecerá un botón para descargarlo.
 
-## **Gestión de modelos y configuración de RAG**
+<div align="center"><img src="/openwebui/capturas/ollama_models.png"></div>
 
-El panel de administración y la pantalla principal ofrecen herramientas para gestionar los LLMs.
+<div align="center"><img src="/openwebui/capturas/ollama_gestion.png"></div>
 
-* **Descarga de modelos de ollama:** La forma más sencilla de añadir nuevos modelos es directamente desde la interfaz. Se puede ir a *Settings* \> *Connections*, seleccionar la conexión de Ollama y usar el campo de texto para buscar y descargar modelos de la biblioteca oficial de Ollama. Alternativamente, se puede escribir el nombre de un modelo (por ejemplo, llama3) en el selector de modelos de la ventana de chat principal. Si el modelo no está disponible localmente, aparecerá un botón para descargarlo.
-* **Importación de modelos GGUF:** OpenWebUI permite el uso de modelos en el popular formato GGUF de Hugging Face. Esto amplía el número de modelos disponibles más allá de la biblioteca oficial de Ollama. El proceso implica descargar el modelo GGUF y luego usar la interfaz de OpenWebUI para crear un nuevo Modelfile de Ollama que apunte a ese archivo local.  
-* **Configuración de Retrieval-Augmented Generation (RAG):** La funcionalidad RAG integrada transforma OpenWebUI de un simple chatbot a una potente plataforma de consulta de conocimiento personalizado. Permite a los LLMs acceder y utilizar información de documentos privados para responder preguntas. El proceso, que abstrae una gran complejidad técnica, es el siguiente:  
-  1. **Crear una "Knowledge Base":** En la interfaz, navegue a *Workspace* \> *Knowledge*. Aquí, cree una nueva base de conocimiento, dándole un nombre y un propósito.  
+## **Configuración de RAG**
+
+La funcionalidad RAG permite a los LLMs acceder y utilizar información de documentos privados para responder preguntas.
+
+En el espacio de trabajo disponemos de los dos elementos que nos habilitan la creación de sistemas RAG.
+
+El proceso es el siguiente:  
+
+  1. **Crear la base de conocimiento:** *Espacio de trabajo* \> *Conocimiento*. Aquí, cree una nueva base de conocimiento, dándole un nombre y un propósito.  
+
   2. **Cargar documentos:** Dentro de la base de conocimiento recién creada, cargue sus documentos. Se pueden subir archivos individuales (como .pdf, .txt, .md), directorios completos o incluso añadir contenido desde una URL. OpenWebUI procesará estos documentos, los dividirá en fragmentos (chunks), generará representaciones vectoriales (embeddings) y los almacenará en una base de datos vectorial interna.  
-  3. **Crear un modelo personalizado:** Navegue a *Workspace* \> *Models*. Cree un nuevo modelo, asígnele un nombre, seleccione un modelo base potente (por ejemplo, qwen2:72b), y en la sección de configuración, asocie este nuevo modelo con la "Knowledge Base" creada en el paso anterior.  
-  4. **Uso en el chat:** Inicie un nuevo chat y seleccione el modelo personalizado que acaba de crear. Ahora, cuando haga una pregunta, el sistema primero buscará en su base de conocimiento los fragmentos de texto más relevantes para su consulta, los inyectará en el contexto del LLM y luego generará una respuesta basada tanto en su propio conocimiento como en la información específica de sus documentos. También es posible invocar documentos o URLs directamente en un chat usando el prefijo \#.  
 
-Esta capacidad de RAG democratiza una técnica de IA avanzada, permitiendo a usuarios sin experiencia en programación construir sistemas de preguntas y respuestas sobre sus propios datos, convirtiendo a OpenWebUI en una herramienta mucho más versátil y poderosa.
+  3. **Crear un modelo personalizado:** Navegue a *Espacio de trabajo* \> *Modelos*. Cree un nuevo modelo, asígnele un nombre, seleccione un modelo base, y en la sección de configuración, asocie este nuevo modelo con la base de conocimientos creada en el paso anterior.  
+
+  4. **Uso en el chat:** Inicie un nuevo chat y seleccione el modelo personalizado que acaba de crear. Ahora, cuando haga una pregunta, el sistema primero buscará en su base de conocimiento los fragmentos de texto más relevantes para su consulta, los inyectará en el contexto del LLM y luego generará una respuesta basada tanto en su propio conocimiento como en la información específica de sus documentos. También es posible invocar documentos o URLs directamente en un chat usando el prefijo \#.  
